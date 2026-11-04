@@ -1,19 +1,25 @@
 # The Prototype Bet
 
 ## What I Built
-<!-- One sentence: what does this prototype demonstrate? -->
+
+A Christmas tree selection website.
 
 ## Tool Used
-<!-- v0 / Cursor / Lovable / other -->
+
+Lovable
 
 ## Prototype Link
-<!-- Paste the shareable URL -->
+
+https://merry-tree-matchmaker.lovable.app/
 
 ## AI Value Archetype
-<!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
+
+Copilot
 
 ## The Bet in One Sentence
-<!-- What you're building, for whom, why now -->
+
+A Christmas tree selection tool that helps shoppers find the right tree before the festive season starts.
 
 ## Kill Criteria
-<!-- When would you stop? What evidence would kill this bet? -->
+
+Stop if fewer than [X]% of visitors purchase a tree within the first three weeks. Also stop if an existing competitor already offers an equivalent experience at comparable quality.
