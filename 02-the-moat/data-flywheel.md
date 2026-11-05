@@ -14,23 +14,23 @@
 | **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
 | **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
 
-### Correction Loop - 2/5 (provisional)
+### Correction Loop - 2/5
 **What you capture today:** A star rating and written feedback on AI-drafted reviews. The user's edits to the draft are not captured and are lost when the review is submitted.
 **How it compounds:** It doesn't. The star rating and feedback are only reported and do not affect how the AI drafts future reviews.
 
-### Preference Loop - 1/5 (provisional)
+### Preference Loop - 1/5
 **What you capture today:** Nothing. Every draft starts from the same generic template, with no memory of individual or team preferences.
 **How it compounds:** It doesn't. The product is stateless with respect to preferences.
 
-### Domain Context Loop - 1/5 (provisional)
+### Domain Context Loop - 1/5
 **What you capture today:** Nothing that carries over. Each area of a review is treated separately, so anything learned in one area does not inform the others.
 **How it compounds:** It doesn't. Usage in one area does not improve quality in adjacent areas.
 
-### Network Loop - 1/5 (provisional)
+### Network Loop - 1/5
 **What you capture today:** Nothing shared. Feedback and usage from one team or customer do not improve the drafts for others.
 **How it compounds:** It doesn't. Each new user or team leaves the product no better for everyone else.
 
-**Total Flywheel Score: 5/20 (provisional)**
+**Total Flywheel Score: 5/20**
 **Weakest Loop:** Preference (1/5). A competitor could most easily attack here, since it's an obvious improvement that more user feedback data could deliver quickly.
 **Fix for weakest loop:** Save the changes users make to AI drafts and analyse their style and format. Build this up over time per individual and across similar cohorts, then use the learned format in future drafts.
 
@@ -39,22 +39,22 @@
 ## Encroachment Threat Assessment
 
 ### 1. Platform Encroachment
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:** Microsoft
+**Vector:** Adding review drafting into Word or Teams, where managers already write and communicate
+**Time-to-threat:** About 1 month
+**% of value at risk:** 20%
 
 ### 2. Vertical Competitor
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:** Clear review (performance management software provider)
+**Vector:** Adding AI review drafting into their existing performance management software
+**Time-to-threat:** About 6 months
+**% of value at risk:** 50%
 
 ### 3. Adjacent Expansion
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+**Attacker:** HRIS software provider (general category)
+**Vector:** Adding a performance review module to the HR records they already hold
+**Time-to-threat:** 3-6 months
+**% of value at risk:** 25%
 
 ---
 
@@ -62,9 +62,9 @@
 
 *Your partner played the Big Tech attacker. What was their plan to kill you?*
 
-**Attacker:**
-**Attack vector (target the weakest loop):**
-**Weeks 1-4 - what they ship:**
-**Weeks 5-8 - how they poach users:**
-**Weeks 9-12 - why users don't come back:**
-**Your defense:**
+**Attacker:** Microsoft
+**Attack vector (target the weakest loop):** Preference. Microsoft puts a framework around the writing style managers already produce in Word and Teams, learning each manager's preferred tone, length and format from that activity.
+**Weeks 1-4 - what they ship:** A drafting assistant for HR admins to create review templates
+**Weeks 5-8 - how they poach users:** Marketing and messaging about integration with the Microsoft ecosystem
+**Weeks 9-12 - why users don't come back:** Our product is not as integrated into their workflow as Microsoft's offering, and it does not learn from feedback
+**Your defense:** Start saving manager edits and feeding them back into drafts. Open up to MCPs and allow integration into AI tools.
