@@ -16,11 +16,15 @@
 
 ## Governance Policy
 
-**Scope:**
+**Scope:** The AI objectives assistant, customer-facing. It drafts SMART objectives from 1–3 sentence inputs.
 **Autonomy boundaries:**
-**Escalation triggers:**
-**Audit cadence:**
-**Regulatory exposure (EU AI Act / other):**
+- OK solo: drafting objectives and showing confidence labels (high, medium, low).
+- Needs human: the user must approve the objective wording before it is used.
+
+**Escalation triggers:** A user can flag a response.
+**Escalation owner:** Compliance team.
+**Audit cadence:** Monthly.
+**Regulatory exposure (EU AI Act / other):** EU AI Act and GDPR. Risk tier: high.
 
 ## Agent Topology
 <!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
