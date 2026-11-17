@@ -4,9 +4,9 @@
 
 | Loop | Input | Output | Compounds? | Status |
 |------|-------|--------|-----------|--------|
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
+| Recursive Learning | User corrects something in chat | Updated golden dataset, reviewed by PM | Y | missing |
+| Cross-Domain Transfer | None | Nothing has been produced yet | N | missing |
+| Network Intelligence | All teams | Shared evals | N | missing |
 
 **Broken loop identified by partner:**
 **Fix plan:**
